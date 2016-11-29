@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="StockCharts.HomePage">
+  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+  <ScrollView>
+    <StackLayout>
+      <Label Text="Stock Charts"
+              Font="24"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+              FontAttributes="Bold"
+             TextColor="Blue"/>
+      <Entry x:Name="symbolStockChartsEntry"
+              Placeholder="Enter a Symbol" TextColor="Blue"/>
+      <Entry x:Name="noteStockChartsEntry"
+              Placeholder="Note" TextColor="Blue"/>
+      <StackLayout Orientation="Horizontal">
+        <Label Text="Begin date: "
+               Font="14"
+                VerticalOptions="Center" FontAttributes="Bold"
+             TextColor="Blue"/>
+        <DatePicker x:Name="beginDateStockChartsPicker" />
+
+        <Label Text="End date: "
+               Font="14"
+                VerticalOptions="Center" FontAttributes="Bold"
+             TextColor="Blue"/>
+        <DatePicker x:Name="endDateStockChartsPicker" />
+      </StackLayout>
+      
+      <Button x:Name="addButton"
+              Text="Add"
+              BackgroundColor="Navy"
+              TextColor="White" />
+      
+      <ListView x:Name="stockChartsListView" />
+    </StackLayout>
+  </ScrollView>
+</ContentPage>
