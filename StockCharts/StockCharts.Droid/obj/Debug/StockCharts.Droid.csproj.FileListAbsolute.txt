@@ -147,5 +147,8 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\and
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.config
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.xml
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\StockCharts.Droid.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.mdb

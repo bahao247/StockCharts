@@ -35,7 +35,15 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockChar
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.EditPage.xaml.g.cs
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.dll
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.pdb
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.dll.mdb
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\StockCharts.dll.mdb
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.csproj.App.config
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\StockCharts.dll.config
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Newtonsoft.Json.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.Extensions.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.Primitives.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Newtonsoft.Json.xml
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.xml
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.Extensions.xml
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\System.Net.Http.Primitives.xml
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\StockCharts.dll.mdb
