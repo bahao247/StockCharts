@@ -24,6 +24,7 @@ namespace StockCharts
     public partial class EditPage : ContentPage
     {
         private StockCharts stockcharts;
+
         private int statusNoteSwitchPriority;
         private TimeZoneInfo localZone = TimeZoneInfo.Local;
         public EditPage(StockCharts stockcharts)
@@ -43,19 +44,33 @@ namespace StockCharts
             endDateStockChartsPicker.Date = stockcharts.EndDateStockCharts;
 
             stockListView.ItemTemplate = new DataTemplate(typeof(StockCell));
+
+            using (var data = new DataAccess())
+            {
+                data.DeleteStock();
+            }
         }
 
         private async void UpdateButton_Clicked(object sender, EventArgs e)
         {
+            using (var data = new DataAccess())
+            {
+                data.DeleteStock();
+            }
+
+            stockcharts.NoteStockCharts = noteStockChartsEntry.Text;
+            stockcharts.BeginDateStockCharts = beginDateStockChartsPicker.Date;
+            stockcharts.EndDateStockCharts = endDateStockChartsPicker.Date;
+
             if (await Core.GetStocks(stockcharts) == null)
             {
                 await DisplayAlert("Error", "Check again name and datetime", "Accept");
-                symbolStockChartsEntry.Focus();
                 return;
             }
 
             using (var data = new DataAccess())
             {
+                data.UpdateStockCharts(stockcharts);
                 stockListView.ItemsSource = data.GetStock();
             }
         }

@@ -39,12 +39,6 @@
         <DatePicker x:Name="endDateStockChartsPicker" />
         </StackLayout>
       
-      <Label Text="Value close of Symbol: "
-               Font="14"
-                VerticalOptions="Center" FontAttributes="Bold"
-             TextColor="Blue"/>
-      <ListView x:Name="stockListView" />
-        
       <StackLayout Orientation="Horizontal">
         <Button x:Name="updateButton"
               Text="Update"
@@ -63,7 +57,12 @@
                 HorizontalOptions="FillAndExpand"
                 VerticalOptions="Center" />
       </StackLayout>
-    
+      
+      <Label Text="Value close of Symbol: "
+               Font="14"
+                VerticalOptions="Center" FontAttributes="Bold"
+             TextColor="Blue"/>
+      <ListView x:Name="stockListView" />
     </StackLayout>
   
   </ScrollView>

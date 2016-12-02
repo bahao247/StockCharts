@@ -94,7 +94,6 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Xam
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Xamarin.Forms.Platform.dll
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Xamarin.Forms.Xaml.dll
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.pdb
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\FormsViewGroup.pdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\FormsViewGroup.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Xamarin.Forms.Core.pdb
@@ -118,10 +117,14 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\res
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\res\values\styles.xml
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\R.cs.flag
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\uploadflags.txt
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.config
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.dll
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.xml
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.mdb
+D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Java.Interop.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Mono.Android.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\mscorlib.dll.mdb
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\System.ComponentModel.Composition.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\System.Core.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\System.dll.mdb
@@ -147,8 +150,5 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\and
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.config
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.dll
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\Newtonsoft.Json.xml
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\obj\Debug\StockCharts.Droid.dll.mdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts.Droid\bin\Debug\StockCharts.Droid.dll.mdb

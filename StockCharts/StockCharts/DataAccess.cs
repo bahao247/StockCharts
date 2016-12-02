@@ -74,5 +74,10 @@ namespace StockCharts
             connection.Dispose();
             connection1.Dispose();
         }
+
+        public void DeleteStock()
+        {
+            connection1.DeleteAll<Stock>();
+        }
     }
 }

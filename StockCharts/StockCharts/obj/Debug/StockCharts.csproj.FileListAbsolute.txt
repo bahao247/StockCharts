@@ -30,7 +30,6 @@ D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Xamarin.F
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Xamarin.Forms.Platform.pdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Xamarin.Forms.Xaml.pdb
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\bin\Debug\Xamarin.Forms.Xaml.xml
-D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.csprojResolveAssemblyReference.cache
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.HomePage.xaml.g.cs
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.EditPage.xaml.g.cs
 D:\git\Xamarin\QuickNote\StockCharts\StockCharts\StockCharts\obj\Debug\StockCharts.dll

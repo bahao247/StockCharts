@@ -9,7 +9,7 @@ namespace StockCharts
 {
     class Stock
     {
-        [PrimaryKey, AutoIncrement]
+        /*[PrimaryKey, AutoIncrement]*/
         //Info of Stock Charts
         public int IDStock { get; set; }
         public int IDsCharts { get; set; }

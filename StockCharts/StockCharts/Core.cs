@@ -23,8 +23,13 @@ namespace StockCharts
             }
 
             Stock stock = new Stock();
+            stock.IDStock = 0;
+
+            int id = 1;
+
             while (count > 0)
             {
+                stock.IDStock = id;
                 stock.IDsCharts = stockcharts.IDStockCharts;
                 stock.SymbolStock = (string)results["query"]["results"]["quote"][count - 1]["Symbol"];
                 stock.ValueCloseStockEntry = (float)results["query"]["results"]["quote"][count - 1]["Close"];
@@ -35,6 +40,7 @@ namespace StockCharts
                     data.InsertStock(stock);
                 }
                 --count;
+                ++id;
             }
             return stock;
         }

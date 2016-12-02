@@ -29,9 +29,6 @@ namespace StockCharts {
         private global::Xamarin.Forms.DatePicker endDateStockChartsPicker;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.ListView stockListView;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Button updateButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -41,16 +38,19 @@ namespace StockCharts {
         private global::Xamarin.Forms.Button deleteButton;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.ListView stockListView;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(EditPage));
             symbolStockChartsEntry = this.FindByName<global::Xamarin.Forms.Entry>("symbolStockChartsEntry");
             noteStockChartsEntry = this.FindByName<global::Xamarin.Forms.Entry>("noteStockChartsEntry");
             beginDateStockChartsPicker = this.FindByName<global::Xamarin.Forms.DatePicker>("beginDateStockChartsPicker");
             endDateStockChartsPicker = this.FindByName<global::Xamarin.Forms.DatePicker>("endDateStockChartsPicker");
-            stockListView = this.FindByName<global::Xamarin.Forms.ListView>("stockListView");
             updateButton = this.FindByName<global::Xamarin.Forms.Button>("updateButton");
             saveButton = this.FindByName<global::Xamarin.Forms.Button>("saveButton");
             deleteButton = this.FindByName<global::Xamarin.Forms.Button>("deleteButton");
+            stockListView = this.FindByName<global::Xamarin.Forms.ListView>("stockListView");
         }
     }
 }
