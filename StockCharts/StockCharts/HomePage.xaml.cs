@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Android.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +11,6 @@ namespace StockCharts
 {
     public partial class HomePage : ContentPage
     {
-        private int statusNoteSwitchPriority;
         private TimeZoneInfo localZone = TimeZoneInfo.Local;
 
         public HomePage()
@@ -44,8 +44,15 @@ namespace StockCharts
         {
             if (string.IsNullOrEmpty(symbolStockChartsEntry.Text))
             {
-                DisplayAlert("Error", "Name of notes must not be blank", "Accept");
+                DisplayAlert("Error", "Symbol of Stock Charts must not be blank", "Accept");
                 symbolStockChartsEntry.Focus();
+                return;
+            }
+            
+            if (beginDateStockChartsPicker.Date > endDateStockChartsPicker.Date)
+            {
+                DisplayAlert("Error", "Begin date must <= End date", "Accept");
+                beginDateStockChartsPicker.Focus();
                 return;
             }
 

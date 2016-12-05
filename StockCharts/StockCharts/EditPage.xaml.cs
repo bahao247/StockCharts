@@ -1,8 +1,21 @@
-﻿using System;
+﻿using Android.Util;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+//PTR TuanNA begin comment
+//[AAA- 30/11/2016]
+using System.Net;
+
+using Android.App;
+using Android.Content;
+using Android.OS;
+using Android.Runtime;
+using Android.Views;
+using Android.Widget;
+//PTR TuanNA end comment
 
 using Xamarin.Forms;
 
@@ -11,6 +24,7 @@ namespace StockCharts
     public partial class EditPage : ContentPage
     {
         private StockCharts stockcharts;
+
         private int statusNoteSwitchPriority;
         private TimeZoneInfo localZone = TimeZoneInfo.Local;
         public EditPage(StockCharts stockcharts)
@@ -20,7 +34,7 @@ namespace StockCharts
 
             saveButton.Clicked += SaveButton_Clicked;
             deleteButton.Clicked += DeleteButton_Clicked;
-
+            updateButton.Clicked += UpdateButton_Clicked;
             symbolStockChartsEntry.Text = stockcharts.SymbolStockCharts;
             noteStockChartsEntry.Text = stockcharts.NoteStockCharts;
             beginDateStockChartsPicker.Date = stockcharts.BeginDateStockCharts;
@@ -28,6 +42,46 @@ namespace StockCharts
 
             beginDateStockChartsPicker.Date = stockcharts.BeginDateStockCharts;
             endDateStockChartsPicker.Date = stockcharts.EndDateStockCharts;
+
+            stockListView.ItemTemplate = new DataTemplate(typeof(StockCell));
+
+            using (var data = new DataAccess())
+            {
+                data.DeleteStock();
+            }
+        }
+
+        private async void UpdateButton_Clicked(object sender, EventArgs e)
+        {
+            using (var data = new DataAccess())
+            {
+                data.DeleteStock();
+            }
+
+            stockcharts.NoteStockCharts = noteStockChartsEntry.Text;
+            stockcharts.BeginDateStockCharts = beginDateStockChartsPicker.Date;
+            stockcharts.EndDateStockCharts = endDateStockChartsPicker.Date;
+
+            if (await Core.GetStocks(stockcharts) == null)
+            {
+                await DisplayAlert("Error", "Check again name and datetime", "Accept");
+                return;
+            }
+
+            using (var data = new DataAccess())
+            {
+                data.UpdateStockCharts(stockcharts);
+                stockListView.ItemsSource = data.GetStock();
+            }
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            using (var data = new DataAccess())
+            {
+                stockListView.ItemsSource = data.GetStock();
+            }
         }
 
         public async void DeleteButton_Clicked(object sender, EventArgs e)
